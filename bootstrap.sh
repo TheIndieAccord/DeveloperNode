@@ -4,7 +4,8 @@ yum update -qy
 
 # Installation
 echo "Installing applications"
-yum install -qy python3-pip git silversearcher-ag unzip
+yum install -qy epel-release
+yum install -qy python3-pip git silversearcher-ag unzip htop
 
 # Install Pip Modules
 echo "Installing Python Modules"
